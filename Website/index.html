@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"> <i class="fas fa-user-alt"></i>jacobHyatt</a>
+
+            
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="navbar__menu" >
+                <li class="navbar__item" >
+                    <a href="#/" class="navbar__links clicked" id = "homeButton"> <i class="fas fa-file-code"></i></i>home.html</a>
+                </li>
+
+                <li class="navbar__item" >
+                    <a href="#/" class="navbar__links" id = "projectsButton"><i class="fas fa-file-code"></i>projects.html</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="navbar__subbar" id="subbar">home.html</div>
+
+    </nav>
+
+
+          
+    <div class="main">
+
+        
+        <div class="main__sidebar" id = "sidebar"></div>
+
+
+        <div class="main__container" >
+
+            <!-- Home.html  -->
+            <div class="main__content__container" id="homePage">
+
+                <div class="content__format">
+                    <div class="main__content">
+                        <h1>Jacob Hyatt</h1>
+                        <h2>Game Programmer</h2>
+                        <p> Hello, I've been interested in games throughout my life starting from when I was younger playing sandbox games such as Zoo tycoon, Harvest Moon, or Animal Crossing.
+                             As I grew up my Uncle got me into MMORPGs such as Maplestory and FPS such as Halo and Call of duty. From there I explored 
+                             the internet finding games that satsify all types of genres inbetween. My goal is to give people the feeling of getting invested into a game world
+                             as much as I was with these games</p>
+                    
+
+                        <br>
+                        <br>
+                        <br>
+                        <h1>Current Games</h1>
+
+
+                        <div class="main__content__games">             
+                            <div class="img"> <img src="images/kisspng-guild-wars-2-logo-video-games-dragon-diario-de-una-gamer-beta-de-junio-del-guild-wars-5b680cd29c0765.1665029415335456826391.png" alt="pic">                     </div>
+                            <div class="img"><img src="images/League_of_Legends_2019_vector.svg" alt="pic" > </div>
+                            <div class="img"><img src="images/Valorant_logo_-_pink_color_version.svg" alt="pic" > </div>     
+                        </div>
+                    </div>
+    
+                    <div class="main__image__class main__page" id ="main__image__container">
+                        <img src="images/profilepic02.png" alt="pic" id="main__img">
+                    </div> 
+
+                </div>
+
+            </div>
+
+            <!-- Projects.html  -->
+            <div class="main__content__container hidden" id="projectsPage">
+                
+                <div class="content__format" id ="shatterKeepProject">
+                        <div class="main__content">
+                            <h1>Shatter Keep - Gameplay Programmer</h1>
+                            <h2>SEPTEMBER 2020 - MAY 2021</h2>      
+                            <p> Shatter Keep is an asymmetrical multiplayer game where 3 survivor players try to escape the castle and 1 player attempts to eliminate them. Survivors must complete a list of objectives to open the castle exits while arming traps, lighting torches and avoiding the monster before the timer expires. </p>             
+                            <p> Worked in a team of 12 to develop an asymmetrical online multiplayer game, with inspiration from ‘Among us’ and ‘Dead by Daylight’. </p>
+                            
+                            <div class="main__content">
+                                <h1>Responsibilities</h1>              
+                                <p> Planned the main gameplay systems such as movement, objectives, and traps.</p>
+                                <p> Developed UML diagrams for early plans of the systems and used the ‘Photon Engine’ to sync systems across the network. </p>
+                                <p> Programmed and debugged these systems</p>
+                            </div>
+
+                            <div class="main__content__achievemnts">
+                                <h1>Achievements</h1>              
+                                <p> Released the game through Steam on May 7, 2021 </p>
+                                <p> Fully developed through remote work </p>
+                            </div>
+
+                        </div>
+
+                 
+
+                        <div class="main__image__class" id ="main__image__container">
+                           <!--<img src="images/shatterkeepBanner.jpg" alt="pic" id="main__img">--> 
+                           <iframe width="100%" height="400px" src="https://www.youtube.com/embed/JiDBoJE4y4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            <div class="main__content__tools">             
+                                <img src="images/Unity_Technologies_logo.svg" alt="pic" id="unity_logo">                     
+                                <img src="images/c-sharp-logo.svg" alt="pic" id="unity_logo"> 
+                                <img src="images/logo-photon-pun.png" alt="pic" id="unity_logo">                     
+
+                            </div>
+                        </div>  
+                </div>
+
+                <div class="content__format" id ="tinyTerrorsProject">
+                    <div class="main__content">
+                        <h1>Tiny Terrors - Gameplay Programmer</h1>
+                        <h2>SEPTEMBER 2019 - MAY 2020</h2>                   
+                        <p> Worked in a team of 8 to develop a local multiplayer arcade game focused on toddlers dodging and throwing items at each other to gain points. </p>
+
+                        <div class="main__content">
+                            <h1>Responsibilities</h1>              
+                            <p>Programmed main gameplay systems such as throwing objects, breaking objects, and point system</p>
+                            <p>Testing and debugging</p>
+                            <p></p>
+                        </div>
+
+           
+
+
+
+
+                    </div>
+
+                    <div class="main__image__class" id ="main__image__container">
+                        <!--<img src="images/shatterkeepBanner.jpg" alt="pic" id="main__img">--> 
+                        <img src="images/TinyTerrors_PlayerKnockbackTest.gif" alt="pic" id="tinyTerrorsLogo">
+
+                         <div class="main__content__tools">             
+                             <img src="images/Unity_Technologies_logo.svg" alt="pic" id="unity_logo">                     
+                             <img src="images/c-sharp-logo.svg" alt="pic" id="unity_logo"> 
+                
+                         </div>
+                     </div>  
+                </div>
+
+
+                <div class="content__format" id ="mothersGardenProject">
+
+                    <div class="main__content">
+                        <h1>Mothers Garden - Lead Programmer</h1>
+                        <h2>DECEMBER 2018 - MAY 2019</h2>                   
+                        <p> Worked in a team of 4 to develop a 2D sidescroller platformer which features small puzzles to solve with multiple interacting mechanics. </p>
+                        
+                        <div class="main__content">
+                            <h1>Responsibilities</h1>              
+                            <p> Planned and programmed gameplay systems such as Follower system, Abilities, and interactable mechanics </p>
+                            <p> Helped develop level and puzzle design </p>
+                            <p></p>
+                        </div>
+
+                        <div class="main__content__achievemnts">
+                            <h1>Challenges</h1>              
+                            <p> Member of the team left in production which required the team to adapt and work on areas of the game outside of our expertise</p>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="main__image__class" id ="main__image__container">
+                        <!--<img src="images/shatterkeepBanner.jpg" alt="pic" id="main__img">--> 
+                        <img src="images/mothersgardenMap01.png" alt="pic" id="mothersGardenPicture">
+
+                         <div class="main__content__tools">             
+                             <img src="images/Unity_Technologies_logo.svg" alt="pic" id="unity_logo">                     
+                             <img src="images/c-sharp-logo.svg" alt="pic" id="unity_logo"> 
+                
+                         </div>
+                     </div>  
+                </div>
+            </div>
+
+            <!-- Experience.html  -->
+            <div class="main__content__container hidden" id="experiencePage">
+                <div class="main__content">
+                    <h1>Experiences</h1>
+                    <h2>Personal</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper velit vel augue suscipit, quis ullamcorper purus scelerisque. Ut suscipit, ligula ut egestas hendrerit, enim arcu vestibulum tortor, eu convallis nunc purus in felis. Morbi laoreet vulputate iaculis. Quisque tristique, justo nec tincidunt vestibulum, arcu mauris gravida mi, ut condimentum nulla tellus ac massa. Phasellus elit tellus, tincidunt at egestas ut, posuere vel justo. Fusce egestas nunc id molestie convallis. Integer rhoncus, dolor non molestie varius, ipsum nisl rhoncus magna, quis lobortis turpis sem id sem. </p>
+                    <button class="main__btn"><a href="/"></a> Contact </button>
+                </div>
+
+                <div class="main__image__class" id ="main__image__container">
+                    <img src="images/favicon.ico" alt="pic" id="main__img">
+                </div>  
+            </div>
+
+        </div>
+
+
+        <div class="main__progressbar__container">
+            <div class="main__progress__bar" id="myBar"></div>
+
+        </div>
+
+     
+
+    </div>
+
+
+
+    <script src="main.js">test</script>
+</body>
+</html>
