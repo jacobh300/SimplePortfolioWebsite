@@ -1,4 +1,4 @@
 # SimplePortfolioWebsite
 A Test/Starter project for familiarizing myself with HTML/CSS/Java script.
 
-![alt text](https://imgur.com/a/2jZcFQs)
+![alt text](https://i.imgur.com/HKANWxx.mp4)
